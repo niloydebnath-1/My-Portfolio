@@ -1,6 +1,6 @@
 "use client";
 
-import { ArrowUp, Mail, Heart } from "lucide-react";
+import { ArrowUp, Mail } from "lucide-react";
 import { GithubIcon, LinkedinIcon } from "@/components/ui/icons";
 
 export default function Footer() {
@@ -16,10 +16,8 @@ export default function Footer() {
             >
               Niloy<span className="gradient-text">.</span>
             </a>
-            <p className="text-xs text-gray-600 mt-1.5 flex items-center gap-1 justify-center md:justify-start">
-              © {new Date().getFullYear()} Niloy Debnath. Built with{" "}
-              <Heart size={10} className="text-red-500 fill-red-500" /> using
-              Next.js
+            <p className="text-xs text-gray-600 mt-1.5">
+              © {new Date().getFullYear()} Niloy Debnath - Full Stack Developer
             </p>
           </div>
 
